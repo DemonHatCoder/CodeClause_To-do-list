@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <title>Simple To Do List</title>
     <!--Google Font-->
@@ -10,13 +10,18 @@
     <link rel="stylesheet" href="Todo-list.css">
 </head>
 <body>
-    <h1>Hello, this is your to-do list <br> </h1>
+    <div class="intro" style="text-align: center;">
+        <h1>Hey! Welcome, this is your to-do list. <br>  </h1>
+        <h2>What tasks do you want to add to your List?</h2>
+    </div>
     <div class="container">
         <div id="newtask">
             <input type="text" placeholder="Please enter task to be done..">
             <button id="push">Add task</button>
         </div>
-        <div id="tasks"></div>
+        <div id="tasks">
+            <h2>Your tasks:</h2>
+        </div>
     </div>
     <!--Script-->
     <script src="todo-list.js"></script>
